@@ -8,6 +8,7 @@ export default defineConfig({
     viewportHeight: 1080,
     defaultCommandTimeout: 4000,
     retries: { runMode: 1, openMode: 1 },
+    watchForFileChanges: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
